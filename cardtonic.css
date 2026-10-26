@@ -671,7 +671,12 @@ nav{
 .amati{
     position: relative;
     left: -140px;
-    bottom: -140px;
+    bottom: -220px;
     width: 250px;
+}
+.uyt{
+     position: relative;
+    
+    bottom: -100px;
 }
 }
