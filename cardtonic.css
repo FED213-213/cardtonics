@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    box-sizing: border-box;
     padding: 0;
     max-width: 100%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -460,11 +461,16 @@ a{
 .third{
     width: 40px;
 }
-
+.menu{
+    display: none;
+}
 .image-move2{
     position: relative;
     bottom: -100px;
     right: -210px;
+}
+.anime{
+    margin-top: 0;
 }
 .gore-second{
     width: 530px;
@@ -481,6 +487,49 @@ a{
      padding-top: 60px;
    overflow: hidden;
    background-color: rgb(145,234,241);
+}
+.logos-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-self: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.small-logos{
+    width: 150px;
+
+}
+.featured-on{
+    justify-self: center;
+    color: #7480ee;
+    margin-top: 50px;
+}
+.slides{
+    padding: 30px 10px 10px 30px;
+    width: 600px;
+    height: 500px;
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    flex-shrink: 0;
+}
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    overflow: auto;
+    width: 90%;
+    justify-self: center;
+}
+.i-love{
+    font-size: 30px;
+    color:  #7480ee;
+}
+.text-box{
+
 }
 @media (max-width: 640px) {
     .container{
